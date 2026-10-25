@@ -1,0 +1,46 @@
+{
+  "tile_size": 640,
+  "seed": 42,
+  "bg_ratio": 0.25,
+  "boards": {
+    "train": [
+      "05",
+      "06",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "val": [
+      "07"
+    ],
+    "heldout_zero_defect_training": [
+      "01",
+      "04"
+    ]
+  },
+  "clip_rule": "keep if inter_area >= 0.25 orig and side >= 8.0px",
+  "train_defect_tiles": 213,
+  "val_defect_tiles": 55,
+  "train_bg_tiles": 53,
+  "val_bg_tiles": 10,
+  "clip_kept_partial": 35,
+  "clip_dropped_tiny": 962,
+  "per_class_train": {
+    "open_circuit": 40,
+    "short": 62,
+    "mouse_bite": 48,
+    "spur": 50,
+    "spurious_copper": 50,
+    "missing_hole": 46
+  },
+  "per_class_val": {
+    "open_circuit": 12,
+    "short": 14,
+    "mouse_bite": 12,
+    "spur": 12,
+    "spurious_copper": 20,
+    "missing_hole": 14
+  }
+}

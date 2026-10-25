@@ -1,0 +1,1291 @@
+{
+  "n_cases": 80,
+  "shortlist_top_k": 2,
+  "board_id_ok": 80,
+  "acc": 1.0,
+  "shortlist_rank_gt_k": 0,
+  "failures": [],
+  "note": "10 template x 8 camera variants (shift+-25px, rot+-2deg, gain 0.85-1.15, bias+-12, vignette, noise sigma=3)",
+  "rows": [
+    {
+      "board": "01",
+      "k": 0,
+      "rank": 1,
+      "pred": "01",
+      "inliers": 164,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "01",
+        "05",
+        "06",
+        "07",
+        "04"
+      ]
+    },
+    {
+      "board": "01",
+      "k": 1,
+      "rank": 1,
+      "pred": "01",
+      "inliers": 144,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "01",
+        "07",
+        "05",
+        "06",
+        "04"
+      ]
+    },
+    {
+      "board": "01",
+      "k": 2,
+      "rank": 1,
+      "pred": "01",
+      "inliers": 151,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "01",
+        "05",
+        "06",
+        "04",
+        "07"
+      ]
+    },
+    {
+      "board": "01",
+      "k": 3,
+      "rank": 1,
+      "pred": "01",
+      "inliers": 168,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "01",
+        "06",
+        "05",
+        "07",
+        "12"
+      ]
+    },
+    {
+      "board": "01",
+      "k": 4,
+      "rank": 1,
+      "pred": "01",
+      "inliers": 179,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "01",
+        "12",
+        "07",
+        "04",
+        "10"
+      ]
+    },
+    {
+      "board": "01",
+      "k": 5,
+      "rank": 1,
+      "pred": "01",
+      "inliers": 129,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "01",
+        "05",
+        "06",
+        "07",
+        "12"
+      ]
+    },
+    {
+      "board": "01",
+      "k": 6,
+      "rank": 1,
+      "pred": "01",
+      "inliers": 156,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "01",
+        "07",
+        "12",
+        "05",
+        "04"
+      ]
+    },
+    {
+      "board": "01",
+      "k": 7,
+      "rank": 1,
+      "pred": "01",
+      "inliers": 149,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "01",
+        "04",
+        "12",
+        "07",
+        "09"
+      ]
+    },
+    {
+      "board": "04",
+      "k": 0,
+      "rank": 1,
+      "pred": "04",
+      "inliers": 142,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "04",
+        "07",
+        "12",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "board": "04",
+      "k": 1,
+      "rank": 1,
+      "pred": "04",
+      "inliers": 145,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "04",
+        "12",
+        "07",
+        "10",
+        "09"
+      ]
+    },
+    {
+      "board": "04",
+      "k": 2,
+      "rank": 1,
+      "pred": "04",
+      "inliers": 143,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "04",
+        "07",
+        "05",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "board": "04",
+      "k": 3,
+      "rank": 1,
+      "pred": "04",
+      "inliers": 146,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "04",
+        "06",
+        "07",
+        "12",
+        "05"
+      ]
+    },
+    {
+      "board": "04",
+      "k": 4,
+      "rank": 1,
+      "pred": "04",
+      "inliers": 155,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "04",
+        "12",
+        "07",
+        "10",
+        "09"
+      ]
+    },
+    {
+      "board": "04",
+      "k": 5,
+      "rank": 1,
+      "pred": "04",
+      "inliers": 139,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "04",
+        "07",
+        "12",
+        "10",
+        "08"
+      ]
+    },
+    {
+      "board": "04",
+      "k": 6,
+      "rank": 1,
+      "pred": "04",
+      "inliers": 146,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "04",
+        "12",
+        "07",
+        "10",
+        "06"
+      ]
+    },
+    {
+      "board": "04",
+      "k": 7,
+      "rank": 1,
+      "pred": "04",
+      "inliers": 133,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "04",
+        "07",
+        "12",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "board": "05",
+      "k": 0,
+      "rank": 1,
+      "pred": "05",
+      "inliers": 121,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "05",
+        "04",
+        "07",
+        "01",
+        "12"
+      ]
+    },
+    {
+      "board": "05",
+      "k": 1,
+      "rank": 1,
+      "pred": "05",
+      "inliers": 144,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "05",
+        "12",
+        "04",
+        "07",
+        "10"
+      ]
+    },
+    {
+      "board": "05",
+      "k": 2,
+      "rank": 1,
+      "pred": "05",
+      "inliers": 159,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "05",
+        "12",
+        "04",
+        "01",
+        "07"
+      ]
+    },
+    {
+      "board": "05",
+      "k": 3,
+      "rank": 1,
+      "pred": "05",
+      "inliers": 135,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "05",
+        "06",
+        "04",
+        "07",
+        "12"
+      ]
+    },
+    {
+      "board": "05",
+      "k": 4,
+      "rank": 1,
+      "pred": "05",
+      "inliers": 168,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "05",
+        "04",
+        "12",
+        "07",
+        "10"
+      ]
+    },
+    {
+      "board": "05",
+      "k": 5,
+      "rank": 1,
+      "pred": "05",
+      "inliers": 142,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "05",
+        "12",
+        "04",
+        "10",
+        "07"
+      ]
+    },
+    {
+      "board": "05",
+      "k": 6,
+      "rank": 1,
+      "pred": "05",
+      "inliers": 155,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "05",
+        "04",
+        "07",
+        "01",
+        "12"
+      ]
+    },
+    {
+      "board": "05",
+      "k": 7,
+      "rank": 1,
+      "pred": "05",
+      "inliers": 127,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "05",
+        "06",
+        "12",
+        "07",
+        "04"
+      ]
+    },
+    {
+      "board": "06",
+      "k": 0,
+      "rank": 1,
+      "pred": "06",
+      "inliers": 145,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "06",
+        "04",
+        "05",
+        "07",
+        "12"
+      ]
+    },
+    {
+      "board": "06",
+      "k": 1,
+      "rank": 1,
+      "pred": "06",
+      "inliers": 189,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "06",
+        "05",
+        "12",
+        "07",
+        "04"
+      ]
+    },
+    {
+      "board": "06",
+      "k": 2,
+      "rank": 1,
+      "pred": "06",
+      "inliers": 140,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "06",
+        "04",
+        "07",
+        "12",
+        "05"
+      ]
+    },
+    {
+      "board": "06",
+      "k": 3,
+      "rank": 1,
+      "pred": "06",
+      "inliers": 169,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "06",
+        "04",
+        "07",
+        "12",
+        "05"
+      ]
+    },
+    {
+      "board": "06",
+      "k": 4,
+      "rank": 1,
+      "pred": "06",
+      "inliers": 139,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "06",
+        "05",
+        "07",
+        "12",
+        "04"
+      ]
+    },
+    {
+      "board": "06",
+      "k": 5,
+      "rank": 1,
+      "pred": "06",
+      "inliers": 172,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "06",
+        "12",
+        "04",
+        "07",
+        "10"
+      ]
+    },
+    {
+      "board": "06",
+      "k": 6,
+      "rank": 1,
+      "pred": "06",
+      "inliers": 183,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "06",
+        "05",
+        "12",
+        "07",
+        "04"
+      ]
+    },
+    {
+      "board": "06",
+      "k": 7,
+      "rank": 1,
+      "pred": "06",
+      "inliers": 168,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "06",
+        "07",
+        "04",
+        "12",
+        "08"
+      ]
+    },
+    {
+      "board": "07",
+      "k": 0,
+      "rank": 1,
+      "pred": "07",
+      "inliers": 218,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "07",
+        "12",
+        "04",
+        "06",
+        "05"
+      ]
+    },
+    {
+      "board": "07",
+      "k": 1,
+      "rank": 1,
+      "pred": "07",
+      "inliers": 241,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "07",
+        "12",
+        "04",
+        "05",
+        "09"
+      ]
+    },
+    {
+      "board": "07",
+      "k": 2,
+      "rank": 1,
+      "pred": "07",
+      "inliers": 209,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "07",
+        "04",
+        "12",
+        "10",
+        "06"
+      ]
+    },
+    {
+      "board": "07",
+      "k": 3,
+      "rank": 1,
+      "pred": "07",
+      "inliers": 221,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "07",
+        "04",
+        "12",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "board": "07",
+      "k": 4,
+      "rank": 1,
+      "pred": "07",
+      "inliers": 195,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "07",
+        "04",
+        "12",
+        "05",
+        "08"
+      ]
+    },
+    {
+      "board": "07",
+      "k": 5,
+      "rank": 1,
+      "pred": "07",
+      "inliers": 201,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "07",
+        "04",
+        "12",
+        "06",
+        "05"
+      ]
+    },
+    {
+      "board": "07",
+      "k": 6,
+      "rank": 1,
+      "pred": "07",
+      "inliers": 237,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "07",
+        "04",
+        "12",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "board": "07",
+      "k": 7,
+      "rank": 1,
+      "pred": "07",
+      "inliers": 247,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "07",
+        "04",
+        "12",
+        "08",
+        "10"
+      ]
+    },
+    {
+      "board": "08",
+      "k": 0,
+      "rank": 1,
+      "pred": "08",
+      "inliers": 181,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "08",
+        "12",
+        "04",
+        "10",
+        "07"
+      ]
+    },
+    {
+      "board": "08",
+      "k": 1,
+      "rank": 1,
+      "pred": "08",
+      "inliers": 206,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "08",
+        "12",
+        "04",
+        "07",
+        "10"
+      ]
+    },
+    {
+      "board": "08",
+      "k": 2,
+      "rank": 1,
+      "pred": "08",
+      "inliers": 181,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "08",
+        "05",
+        "10",
+        "06",
+        "04"
+      ]
+    },
+    {
+      "board": "08",
+      "k": 3,
+      "rank": 1,
+      "pred": "08",
+      "inliers": 167,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "08",
+        "10",
+        "12",
+        "04",
+        "07"
+      ]
+    },
+    {
+      "board": "08",
+      "k": 4,
+      "rank": 1,
+      "pred": "08",
+      "inliers": 179,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "08",
+        "04",
+        "12",
+        "07",
+        "10"
+      ]
+    },
+    {
+      "board": "08",
+      "k": 5,
+      "rank": 1,
+      "pred": "08",
+      "inliers": 172,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "08",
+        "04",
+        "07",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "board": "08",
+      "k": 6,
+      "rank": 1,
+      "pred": "08",
+      "inliers": 172,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "08",
+        "07",
+        "04",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "board": "08",
+      "k": 7,
+      "rank": 1,
+      "pred": "08",
+      "inliers": 188,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "08",
+        "05",
+        "10",
+        "06",
+        "04"
+      ]
+    },
+    {
+      "board": "09",
+      "k": 0,
+      "rank": 1,
+      "pred": "09",
+      "inliers": 118,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "09",
+        "04",
+        "07",
+        "12",
+        "01"
+      ]
+    },
+    {
+      "board": "09",
+      "k": 1,
+      "rank": 1,
+      "pred": "09",
+      "inliers": 117,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "09",
+        "07",
+        "04",
+        "12",
+        "10"
+      ]
+    },
+    {
+      "board": "09",
+      "k": 2,
+      "rank": 1,
+      "pred": "09",
+      "inliers": 114,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "09",
+        "07",
+        "04",
+        "12",
+        "06"
+      ]
+    },
+    {
+      "board": "09",
+      "k": 3,
+      "rank": 1,
+      "pred": "09",
+      "inliers": 126,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "09",
+        "12",
+        "07",
+        "04",
+        "06"
+      ]
+    },
+    {
+      "board": "09",
+      "k": 4,
+      "rank": 1,
+      "pred": "09",
+      "inliers": 115,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "09",
+        "07",
+        "12",
+        "04",
+        "01"
+      ]
+    },
+    {
+      "board": "09",
+      "k": 5,
+      "rank": 1,
+      "pred": "09",
+      "inliers": 109,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "09",
+        "07",
+        "04",
+        "12",
+        "01"
+      ]
+    },
+    {
+      "board": "09",
+      "k": 6,
+      "rank": 1,
+      "pred": "09",
+      "inliers": 105,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "09",
+        "12",
+        "04",
+        "07",
+        "06"
+      ]
+    },
+    {
+      "board": "09",
+      "k": 7,
+      "rank": 1,
+      "pred": "09",
+      "inliers": 108,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "09",
+        "12",
+        "07",
+        "04",
+        "01"
+      ]
+    },
+    {
+      "board": "10",
+      "k": 0,
+      "rank": 1,
+      "pred": "10",
+      "inliers": 232,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "10",
+        "05",
+        "04",
+        "06",
+        "07"
+      ]
+    },
+    {
+      "board": "10",
+      "k": 1,
+      "rank": 1,
+      "pred": "10",
+      "inliers": 215,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "10",
+        "04",
+        "05",
+        "07",
+        "01"
+      ]
+    },
+    {
+      "board": "10",
+      "k": 2,
+      "rank": 1,
+      "pred": "10",
+      "inliers": 233,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "10",
+        "05",
+        "04",
+        "06",
+        "07"
+      ]
+    },
+    {
+      "board": "10",
+      "k": 3,
+      "rank": 1,
+      "pred": "10",
+      "inliers": 186,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "10",
+        "06",
+        "05",
+        "04",
+        "07"
+      ]
+    },
+    {
+      "board": "10",
+      "k": 4,
+      "rank": 1,
+      "pred": "10",
+      "inliers": 170,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "10",
+        "04",
+        "05",
+        "07",
+        "12"
+      ]
+    },
+    {
+      "board": "10",
+      "k": 5,
+      "rank": 1,
+      "pred": "10",
+      "inliers": 229,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "10",
+        "04",
+        "07",
+        "12",
+        "01"
+      ]
+    },
+    {
+      "board": "10",
+      "k": 6,
+      "rank": 1,
+      "pred": "10",
+      "inliers": 258,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "10",
+        "04",
+        "07",
+        "12",
+        "08"
+      ]
+    },
+    {
+      "board": "10",
+      "k": 7,
+      "rank": 1,
+      "pred": "10",
+      "inliers": 241,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "10",
+        "04",
+        "07",
+        "12",
+        "01"
+      ]
+    },
+    {
+      "board": "11",
+      "k": 0,
+      "rank": 1,
+      "pred": "11",
+      "inliers": 260,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "11",
+        "06",
+        "04",
+        "07",
+        "05"
+      ]
+    },
+    {
+      "board": "11",
+      "k": 1,
+      "rank": 1,
+      "pred": "11",
+      "inliers": 274,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "11",
+        "06",
+        "05",
+        "04",
+        "07"
+      ]
+    },
+    {
+      "board": "11",
+      "k": 2,
+      "rank": 1,
+      "pred": "11",
+      "inliers": 253,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "11",
+        "06",
+        "05",
+        "07",
+        "04"
+      ]
+    },
+    {
+      "board": "11",
+      "k": 3,
+      "rank": 1,
+      "pred": "11",
+      "inliers": 252,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "11",
+        "06",
+        "04",
+        "07",
+        "05"
+      ]
+    },
+    {
+      "board": "11",
+      "k": 4,
+      "rank": 1,
+      "pred": "11",
+      "inliers": 262,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "11",
+        "07",
+        "04",
+        "12",
+        "06"
+      ]
+    },
+    {
+      "board": "11",
+      "k": 5,
+      "rank": 1,
+      "pred": "11",
+      "inliers": 258,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "11",
+        "04",
+        "07",
+        "06",
+        "12"
+      ]
+    },
+    {
+      "board": "11",
+      "k": 6,
+      "rank": 1,
+      "pred": "11",
+      "inliers": 235,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "11",
+        "06",
+        "04",
+        "07",
+        "05"
+      ]
+    },
+    {
+      "board": "11",
+      "k": 7,
+      "rank": 1,
+      "pred": "11",
+      "inliers": 222,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "11",
+        "06",
+        "05",
+        "04",
+        "07"
+      ]
+    },
+    {
+      "board": "12",
+      "k": 0,
+      "rank": 1,
+      "pred": "12",
+      "inliers": 167,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "12",
+        "07",
+        "04",
+        "05",
+        "06"
+      ]
+    },
+    {
+      "board": "12",
+      "k": 1,
+      "rank": 1,
+      "pred": "12",
+      "inliers": 164,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "12",
+        "04",
+        "07",
+        "10",
+        "01"
+      ]
+    },
+    {
+      "board": "12",
+      "k": 2,
+      "rank": 1,
+      "pred": "12",
+      "inliers": 178,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "12",
+        "04",
+        "07",
+        "10",
+        "09"
+      ]
+    },
+    {
+      "board": "12",
+      "k": 3,
+      "rank": 1,
+      "pred": "12",
+      "inliers": 166,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "12",
+        "04",
+        "07",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "board": "12",
+      "k": 4,
+      "rank": 1,
+      "pred": "12",
+      "inliers": 177,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "12",
+        "04",
+        "07",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "board": "12",
+      "k": 5,
+      "rank": 1,
+      "pred": "12",
+      "inliers": 183,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "12",
+        "07",
+        "04",
+        "10",
+        "09"
+      ]
+    },
+    {
+      "board": "12",
+      "k": 6,
+      "rank": 1,
+      "pred": "12",
+      "inliers": 177,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "12",
+        "04",
+        "07",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "board": "12",
+      "k": 7,
+      "rank": 1,
+      "pred": "12",
+      "inliers": 197,
+      "ok": true,
+      "error": null,
+      "top5": [
+        "12",
+        "04",
+        "07",
+        "09",
+        "01"
+      ]
+    }
+  ]
+}

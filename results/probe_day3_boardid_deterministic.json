@@ -1,0 +1,83 @@
+{
+  "shift_px": {
+    "25": {
+      "n": 80,
+      "board_id_ok": 80,
+      "acc": 1.0,
+      "shortlist_miss": 1,
+      "failures": [],
+      "shortlist_misses": [
+        {
+          "board": "06",
+          "k": 0,
+          "rank": 3,
+          "pred": "06",
+          "inliers": 170,
+          "ok": true,
+          "error": null,
+          "top4": [
+            "12",
+            "07",
+            "06",
+            "04"
+          ]
+        }
+      ]
+    },
+    "50": {
+      "n": 80,
+      "board_id_ok": 80,
+      "acc": 1.0,
+      "shortlist_miss": 3,
+      "failures": [],
+      "shortlist_misses": [
+        {
+          "board": "06",
+          "k": 0,
+          "rank": 4,
+          "pred": "06",
+          "inliers": 183,
+          "ok": true,
+          "error": null,
+          "top4": [
+            "12",
+            "07",
+            "04",
+            "06"
+          ]
+        },
+        {
+          "board": "06",
+          "k": 7,
+          "rank": 3,
+          "pred": "06",
+          "inliers": 160,
+          "ok": true,
+          "error": null,
+          "top4": [
+            "12",
+            "04",
+            "06",
+            "07"
+          ]
+        },
+        {
+          "board": "08",
+          "k": 4,
+          "rank": 3,
+          "pred": "08",
+          "inliers": 173,
+          "ok": true,
+          "error": null,
+          "top4": [
+            "05",
+            "06",
+            "08",
+            "07"
+          ]
+        }
+      ]
+    }
+  },
+  "note": "seed co dinh 20261023+bi*1000+k; shift +-25px, rot +-2deg, gain 0.85-1.15, bias +-12, vignette, noise sigma=3"
+}

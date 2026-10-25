@@ -1,0 +1,12 @@
+{
+  "class_names": {
+    "0": "open_circuit",
+    "1": "short",
+    "2": "mouse_bite",
+    "3": "spur",
+    "4": "spurious_copper",
+    "5": "missing_hole"
+  },
+  "source": "models\\yolo\\best.pt",
+  "imgsz": 640
+}

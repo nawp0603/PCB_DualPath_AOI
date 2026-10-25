@@ -1,0 +1,15 @@
+# Ultralytics dataset config (PORTABLE).
+# GHI CHU: ultralytics phan giai duong dan train/val TUONG DOI theo thu muc
+# chua file yaml nay (check_data_file -> data['yaml_file'] -> Path.parent).
+# 'path' de trong = tu suy tu yaml_file -> chay duoc o bat ky o dia/thu muc nao.
+# Khong dien duong dan tuyet doi o day (se vo tren may moi).
+path:
+train: train/images
+val: val/images
+names:
+  0: open_circuit
+  1: short
+  2: mouse_bite
+  3: spur
+  4: spurious_copper
+  5: missing_hole

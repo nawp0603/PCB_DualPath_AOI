@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "conf": 0.2,
+    "iou": 0.5,
+    "highres": 3072,
+    "weights": "assets\\weights\\yolo11n_day2.pt",
+    "anomaly": "D:\\FPTU\\KLTN\\PCB_Anomaly_Inspector_Portable\\models\\patchcore\\model.ckpt",
+    "boards": "test=01,04 (Zero-defect-training Boards); train=05,06,08,09,10,11,12; val=07",
+    "note": "PatchCore/SAHI chi baseline ablation, khong thuoc pipeline chinh."
+  },
+  "standard": {
+    "scenario": "standard",
+    "num_defect": 36,
+    "num_good": 2,
+    "yolo3072": {
+      "tag": "YOLO full-board @3072 rect=True half=True (Nhanh A)",
+      "AP50": 0.8392,
+      "recall": 0.8476,
+      "precision": 0.7946,
+      "tp": 89,
+      "fp": 23,
+      "npos": 105,
+      "n_det": 112,
+      "latency_ms": 77.0,
+      "per_class": {
+        "open_circuit": 0.8603,
+        "short": 0.7895,
+        "mouse_bite": 0.8125,
+        "spur": 0.6373,
+        "spurious_copper": 0.9444,
+        "missing_hole": 0.9912
+      },
+      "num_images": 36
+    }
+  },
+  "camera": {
+    "scenario": "camera",
+    "num_defect": 36,
+    "num_good": 2,
+    "yolo3072": {
+      "tag": "YOLO full-board @3072 rect=True half=True (Nhanh A)",
+      "AP50": 0.6234,
+      "recall": 0.6381,
+      "precision": 0.8701,
+      "tp": 67,
+      "fp": 10,
+      "npos": 105,
+      "n_det": 77,
+      "latency_ms": 39.3,
+      "per_class": {
+        "open_circuit": 0.7647,
+        "short": 0.5898,
+        "mouse_bite": 0.6771,
+        "spur": 0.2941,
+        "spurious_copper": 0.4321,
+        "missing_hole": 0.9825
+      },
+      "num_images": 36
+    }
+  }
+}

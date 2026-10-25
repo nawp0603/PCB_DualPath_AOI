@@ -1,0 +1,3 @@
+scenario,config,tag,AP50,precision,recall,tp,fp,tn,fn,npos,n_det,auroc,fpr,latency_ms,num_images,error
+standard,yolo3072,YOLO full-board @3072 rect=True half=True (Nhanh A),0.8392,0.7946,0.8476,89,23,,,105,112,,,77.0,36,
+camera,yolo3072,YOLO full-board @3072 rect=True half=True (Nhanh A),0.6234,0.8701,0.6381,67,10,,,105,77,,,39.3,36,

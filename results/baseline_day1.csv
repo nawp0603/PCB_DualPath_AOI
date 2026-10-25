@@ -1,0 +1,9 @@
+scenario,config,tag,AP50,precision,recall,tp,fp,tn,fn,npos,n_det,auroc,fpr,latency_ms,num_images,error
+standard,yolo640,YOLO full-board @640 (rect=True),0.0119,0.0227,0.0286,3,129,,,105,132,,,124.8,36,
+standard,sahi640,SAHI slice=640 ov=0.20 [ABLATION],0.7644,0.4802,0.8095,85,92,,,105,177,,,605.3,36,
+standard,patchcore,patchcore,,,,36,2,0,0,,,0.3056,1.0,86.7,38,
+standard,yolo3072,YOLO full-board @3072 rect=True half=True (Nhanh A),0.8375,0.7627,0.8571,90,28,,,105,118,,,148.1,36,
+camera,yolo640,YOLO full-board @640 (rect=True),0.0098,0.0112,0.0095,1,88,,,105,89,,,46.9,36,
+camera,sahi640,SAHI slice=640 ov=0.20 [ABLATION],0.4882,0.4091,0.5143,54,78,,,105,132,,,656.4,36,
+camera,patchcore,patchcore,,,,36,2,0,0,,,0.5833,1.0,25.7,38,
+camera,yolo3072,YOLO full-board @3072 rect=True half=True (Nhanh A),0.6734,0.8889,0.6857,72,9,,,105,81,,,93.3,36,

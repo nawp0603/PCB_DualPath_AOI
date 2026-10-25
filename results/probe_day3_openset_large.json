@@ -1,0 +1,370 @@
+{
+  "n_cases": 20,
+  "auto_hits": 20,
+  "auto_rule3b": 17,
+  "no_calib_hits": 20,
+  "no_calib_rule3b": 17,
+  "note": "open-set mang lon (2-35% dien tich) tren template 01/04",
+  "rows": [
+    {
+      "board": "01",
+      "area_frac": 0.02,
+      "side": 310,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 7.57,
+        "area": 235.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 3.79,
+        "area": 235.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "01",
+      "area_frac": 0.02,
+      "side": 310,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 7.88,
+        "area": 101.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 3.94,
+        "area": 101.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "01",
+      "area_frac": 0.05,
+      "side": 490,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 8.54,
+        "area": 366.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.27,
+        "area": 366.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "01",
+      "area_frac": 0.05,
+      "side": 490,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 7.54,
+        "area": 571.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 5.31,
+        "area": 571.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "01",
+      "area_frac": 0.1,
+      "side": 693,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 8.32,
+        "area": 202.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.16,
+        "area": 202.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "01",
+      "area_frac": 0.1,
+      "side": 693,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 6.83,
+        "area": 61.0,
+        "rule3b": false
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 6.16,
+        "area": 61.0,
+        "rule3b": false
+      }
+    },
+    {
+      "board": "01",
+      "area_frac": 0.2,
+      "side": 981,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 7.39,
+        "area": 552.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 3.97,
+        "area": 552.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "01",
+      "area_frac": 0.2,
+      "side": 981,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 4.89,
+        "area": 881.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.89,
+        "area": 881.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "01",
+      "area_frac": 0.35,
+      "side": 1297,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 6.64,
+        "area": 71.0,
+        "rule3b": false
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.67,
+        "area": 71.0,
+        "rule3b": false
+      }
+    },
+    {
+      "board": "01",
+      "area_frac": 0.35,
+      "side": 1297,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 3.99,
+        "area": 74.0,
+        "rule3b": false
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 3.99,
+        "area": 74.0,
+        "rule3b": false
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.02,
+      "side": 388,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 8.41,
+        "area": 1024.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.2,
+        "area": 1024.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.02,
+      "side": 388,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 9.92,
+        "area": 4071.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.97,
+        "area": 4071.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.05,
+      "side": 613,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 8.14,
+        "area": 2371.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.07,
+        "area": 2371.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.05,
+      "side": 613,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 8.05,
+        "area": 5690.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 5.46,
+        "area": 5690.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.1,
+      "side": 867,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 8.29,
+        "area": 275.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.15,
+        "area": 275.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.1,
+      "side": 867,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 6.33,
+        "area": 333.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 5.62,
+        "area": 333.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.2,
+      "side": 1227,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 6.41,
+        "area": 311.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 3.8,
+        "area": 311.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.2,
+      "side": 1227,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 5.27,
+        "area": 2259.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 5.27,
+        "area": 2259.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.35,
+      "side": 1623,
+      "delta": 60,
+      "auto": {
+        "hit": true,
+        "z": 6.14,
+        "area": 260.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.23,
+        "area": 260.0,
+        "rule3b": true
+      }
+    },
+    {
+      "board": "04",
+      "area_frac": 0.35,
+      "side": 1623,
+      "delta": 100,
+      "auto": {
+        "hit": true,
+        "z": 4.0,
+        "area": 288.0,
+        "rule3b": true
+      },
+      "no_calib": {
+        "hit": true,
+        "z": 4.0,
+        "area": 288.0,
+        "rule3b": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caching & Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Training outputs (Ultralytics YOLO runs)
+runs/
+
+# (Tùy chọn) Bỏ qua tập train nặng nếu chỉ muốn giữ dữ liệu demo nhỏ:
+# data/yolo_day2/

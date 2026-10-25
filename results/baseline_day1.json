@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "conf": 0.2,
+    "iou": 0.5,
+    "highres": 3072,
+    "weights": "D:\\FPTU\\KLTN\\PCB_DualPath_AOI\\assets\\weights\\yolo11n_base.pt",
+    "anomaly": "D:\\FPTU\\KLTN\\PCB_Anomaly_Inspector_Portable\\models\\patchcore\\model.ckpt",
+    "boards": "test=01,04 (Zero-defect-training Boards); train=05,06,08,09,10,11,12; val=07",
+    "note": "PatchCore/SAHI chi baseline ablation, khong thuoc pipeline chinh."
+  },
+  "standard": {
+    "scenario": "standard",
+    "num_defect": 36,
+    "num_good": 2,
+    "yolo640": {
+      "tag": "YOLO full-board @640 (rect=True)",
+      "AP50": 0.0119,
+      "recall": 0.0286,
+      "precision": 0.0227,
+      "tp": 3,
+      "fp": 129,
+      "npos": 105,
+      "n_det": 132,
+      "latency_ms": 124.8,
+      "per_class": {
+        "open_circuit": 0.0588,
+        "short": 0.0,
+        "mouse_bite": 0.0125,
+        "spur": 0.0,
+        "spurious_copper": 0.0,
+        "missing_hole": 0.0
+      },
+      "num_images": 36
+    },
+    "sahi640": {
+      "tag": "SAHI slice=640 ov=0.20 [ABLATION]",
+      "AP50": 0.7644,
+      "recall": 0.8095,
+      "precision": 0.4802,
+      "tp": 85,
+      "fp": 92,
+      "npos": 105,
+      "n_det": 177,
+      "latency_ms": 605.3,
+      "per_class": {
+        "open_circuit": 0.8725,
+        "short": 0.3913,
+        "mouse_bite": 0.7657,
+        "spur": 0.7014,
+        "spurious_copper": 0.8889,
+        "missing_hole": 0.9667
+      },
+      "num_images": 36
+    },
+    "patchcore": {
+      "tag": "patchcore",
+      "auroc": 0.3056,
+      "threshold": 0.6395183205604553,
+      "fpr": 1.0,
+      "tp": 36,
+      "tn": 0,
+      "fp": 2,
+      "fn": 0,
+      "num_images": 38,
+      "latency_ms": 86.7,
+      "per_image": [
+        {
+          "file": "missing_hole01.jpg",
+          "label": 1,
+          "score": 0.73736
+        },
+        {
+          "file": "missing_hole08.jpg",
+          "label": 1,
+          "score": 0.73721
+        },
+        {
+          "file": "missing_hole15.jpg",
+          "label": 1,
+          "score": 0.73736
+        },
+        {
+          "file": "missing_hole23.jpg",
+          "label": 1,
+          "score": 0.76472
+        },
+        {
+          "file": "missing_hole31.jpg",
+          "label": 1,
+          "score": 0.76398
+        },
+        {
+          "file": "missing_hole38.jpg",
+          "label": 1,
+          "score": 0.76623
+        },
+        {
+          "file": "mouse_bite01.jpg",
+          "label": 1,
+          "score": 0.73736
+        },
+        {
+          "file": "mouse_bite08.jpg",
+          "label": 1,
+          "score": 0.7374
+        },
+        {
+          "file": "mouse_bite15.jpg",
+          "label": 1,
+          "score": 0.73736
+        },
+        {
+          "file": "mouse_bite23.jpg",
+          "label": 1,
+          "score": 0.76411
+        },
+        {
+          "file": "mouse_bite31.jpg",
+          "label": 1,
+          "score": 0.76436
+        },
+        {
+          "file": "mouse_bite38.jpg",
+          "label": 1,
+          "score": 0.76333
+        },
+        {
+          "file": "open_circuit01.jpg",
+          "label": 1,
+          "score": 0.73736
+        },
+        {
+          "file": "open_circuit08.jpg",
+          "label": 1,
+          "score": 0.73721
+        },
+        {
+          "file": "open_circuit14.jpg",
+          "label": 1,
+          "score": 0.73736
+        },
+        {
+          "file": "open_circuit22.jpg",
+          "label": 1,
+          "score": 0.76409
+        },
+        {
+          "file": "open_circuit30.jpg",
+          "label": 1,
+          "score": 0.76347
+        },
+        {
+          "file": "open_circuit38.jpg",
+          "label": 1,
+          "score": 0.76409
+        },
+        {
+          "file": "short01.jpg",
+          "label": 1,
+          "score": 0.73718
+        },
+        {
+          "file": "short08.jpg",
+          "label": 1,
+          "score": 0.73735
+        },
+        {
+          "file": "short14.jpg",
+          "label": 1,
+          "score": 0.73696
+        },
+        {
+          "file": "short22.jpg",
+          "label": 1,
+          "score": 0.76357
+        },
+        {
+          "file": "short30.jpg",
+          "label": 1,
+          "score": 0.7643
+        },
+        {
+          "file": "short38.jpg",
+          "label": 1,
+          "score": 0.76398
+        },
+        {
+          "file": "spur01.jpg",
+          "label": 1,
+          "score": 0.73736
+        },
+        {
+          "file": "spur08.jpg",
+          "label": 1,
+          "score": 0.73736
+        },
+        {
+          "file": "spur15.jpg",
+          "label": 1,
+          "score": 0.73747
+        },
+        {
+          "file": "spur23.jpg",
+          "label": 1,
+          "score": 0.76371
+        },
+        {
+          "file": "spur31.jpg",
+          "label": 1,
+          "score": 0.76404
+        },
+        {
+          "file": "spur38.jpg",
+          "label": 1,
+          "score": 0.76402
+        },
+        {
+          "file": "spurious_copper01.jpg",
+          "label": 1,
+          "score": 0.73737
+        },
+        {
+          "file": "spurious_copper08.jpg",
+          "label": 1,
+          "score": 0.73736
+        },
+        {
+          "file": "spurious_copper14.jpg",
+          "label": 1,
+          "score": 0.73737
+        },
+        {
+          "file": "spurious_copper22.jpg",
+          "label": 1,
+          "score": 0.76408
+        },
+        {
+          "file": "spurious_copper30.jpg",
+          "label": 1,
+          "score": 0.76415
+        },
+        {
+          "file": "spurious_copper38.jpg",
+          "label": 1,
+          "score": 0.76414
+        },
+        {
+          "file": "01.JPG",
+          "label": 0,
+          "score": 0.73862
+        },
+        {
+          "file": "04.JPG",
+          "label": 0,
+          "score": 0.76429
+        }
+      ]
+    },
+    "yolo3072": {
+      "tag": "YOLO full-board @3072 rect=True half=True (Nhanh A)",
+      "AP50": 0.8375,
+      "recall": 0.8571,
+      "precision": 0.7627,
+      "tp": 90,
+      "fp": 28,
+      "npos": 105,
+      "n_det": 118,
+      "latency_ms": 148.1,
+      "per_class": {
+        "open_circuit": 0.8603,
+        "short": 0.7268,
+        "mouse_bite": 0.8667,
+        "spur": 0.5829,
+        "spurious_copper": 0.9971,
+        "missing_hole": 0.9912
+      },
+      "num_images": 36
+    }
+  },
+  "camera": {
+    "scenario": "camera",
+    "num_defect": 36,
+    "num_good": 2,
+    "yolo640": {
+      "tag": "YOLO full-board @640 (rect=True)",
+      "AP50": 0.0098,
+      "recall": 0.0095,
+      "precision": 0.0112,
+      "tp": 1,
+      "fp": 88,
+      "npos": 105,
+      "n_det": 89,
+      "latency_ms": 46.9,
+      "per_class": {
+        "open_circuit": 0.0588,
+        "short": 0.0,
+        "mouse_bite": 0.0,
+        "spur": 0.0,
+        "spurious_copper": 0.0,
+        "missing_hole": 0.0
+      },
+      "num_images": 36
+    },
+    "sahi640": {
+      "tag": "SAHI slice=640 ov=0.20 [ABLATION]",
+      "AP50": 0.4882,
+      "recall": 0.5143,
+      "precision": 0.4091,
+      "tp": 54,
+      "fp": 78,
+      "npos": 105,
+      "n_det": 132,
+      "latency_ms": 656.4,
+      "per_class": {
+        "open_circuit": 0.564,
+        "short": 0.2895,
+        "mouse_bite": 0.6513,
+        "spur": 0.2745,
+        "spurious_copper": 0.1556,
+        "missing_hole": 0.9942
+      },
+      "num_images": 36
+    },
+    "patchcore": {
+      "tag": "patchcore",
+      "auroc": 0.5833,
+      "threshold": 0.6395183205604553,
+      "fpr": 1.0,
+      "tp": 36,
+      "tn": 0,
+      "fp": 2,
+      "fn": 0,
+      "num_images": 38,
+      "latency_ms": 25.7,
+      "per_image": [
+        {
+          "file": "missing_hole01.jpg",
+          "label": 1,
+          "score": 0.74073
+        },
+        {
+          "file": "missing_hole08.jpg",
+          "label": 1,
+          "score": 0.73275
+        },
+        {
+          "file": "missing_hole15.jpg",
+          "label": 1,
+          "score": 0.75275
+        },
+        {
+          "file": "missing_hole23.jpg",
+          "label": 1,
+          "score": 0.75926
+        },
+        {
+          "file": "missing_hole31.jpg",
+          "label": 1,
+          "score": 0.754
+        },
+        {
+          "file": "missing_hole38.jpg",
+          "label": 1,
+          "score": 0.75615
+        },
+        {
+          "file": "mouse_bite01.jpg",
+          "label": 1,
+          "score": 0.76091
+        },
+        {
+          "file": "mouse_bite08.jpg",
+          "label": 1,
+          "score": 0.74769
+        },
+        {
+          "file": "mouse_bite15.jpg",
+          "label": 1,
+          "score": 0.74823
+        },
+        {
+          "file": "mouse_bite23.jpg",
+          "label": 1,
+          "score": 0.74653
+        },
+        {
+          "file": "mouse_bite31.jpg",
+          "label": 1,
+          "score": 0.76385
+        },
+        {
+          "file": "mouse_bite38.jpg",
+          "label": 1,
+          "score": 0.7486
+        },
+        {
+          "file": "open_circuit01.jpg",
+          "label": 1,
+          "score": 0.73807
+        },
+        {
+          "file": "open_circuit08.jpg",
+          "label": 1,
+          "score": 0.72755
+        },
+        {
+          "file": "open_circuit14.jpg",
+          "label": 1,
+          "score": 0.74516
+        },
+        {
+          "file": "open_circuit22.jpg",
+          "label": 1,
+          "score": 0.74695
+        },
+        {
+          "file": "open_circuit30.jpg",
+          "label": 1,
+          "score": 0.75138
+        },
+        {
+          "file": "open_circuit38.jpg",
+          "label": 1,
+          "score": 0.7422
+        },
+        {
+          "file": "short01.jpg",
+          "label": 1,
+          "score": 0.73805
+        },
+        {
+          "file": "short08.jpg",
+          "label": 1,
+          "score": 0.72977
+        },
+        {
+          "file": "short14.jpg",
+          "label": 1,
+          "score": 0.76405
+        },
+        {
+          "file": "short22.jpg",
+          "label": 1,
+          "score": 0.74735
+        },
+        {
+          "file": "short30.jpg",
+          "label": 1,
+          "score": 0.74797
+        },
+        {
+          "file": "short38.jpg",
+          "label": 1,
+          "score": 0.74827
+        },
+        {
+          "file": "spur01.jpg",
+          "label": 1,
+          "score": 0.73593
+        },
+        {
+          "file": "spur08.jpg",
+          "label": 1,
+          "score": 0.74434
+        },
+        {
+          "file": "spur15.jpg",
+          "label": 1,
+          "score": 0.74485
+        },
+        {
+          "file": "spur23.jpg",
+          "label": 1,
+          "score": 0.73989
+        },
+        {
+          "file": "spur31.jpg",
+          "label": 1,
+          "score": 0.74475
+        },
+        {
+          "file": "spur38.jpg",
+          "label": 1,
+          "score": 0.75307
+        },
+        {
+          "file": "spurious_copper01.jpg",
+          "label": 1,
+          "score": 0.73126
+        },
+        {
+          "file": "spurious_copper08.jpg",
+          "label": 1,
+          "score": 0.74286
+        },
+        {
+          "file": "spurious_copper14.jpg",
+          "label": 1,
+          "score": 0.74334
+        },
+        {
+          "file": "spurious_copper22.jpg",
+          "label": 1,
+          "score": 0.74826
+        },
+        {
+          "file": "spurious_copper30.jpg",
+          "label": 1,
+          "score": 0.75669
+        },
+        {
+          "file": "spurious_copper38.jpg",
+          "label": 1,
+          "score": 0.74168
+        },
+        {
+          "file": "01.JPG",
+          "label": 0,
+          "score": 0.74828
+        },
+        {
+          "file": "04.JPG",
+          "label": 0,
+          "score": 0.73802
+        }
+      ]
+    },
+    "yolo3072": {
+      "tag": "YOLO full-board @3072 rect=True half=True (Nhanh A)",
+      "AP50": 0.6734,
+      "recall": 0.6857,
+      "precision": 0.8889,
+      "tp": 72,
+      "fp": 9,
+      "npos": 105,
+      "n_det": 81,
+      "latency_ms": 93.3,
+      "per_class": {
+        "open_circuit": 0.7059,
+        "short": 0.5702,
+        "mouse_bite": 0.7308,
+        "spur": 0.5187,
+        "spurious_copper": 0.5556,
+        "missing_hole": 0.959
+      },
+      "num_images": 36
+    }
+  }
+}
